@@ -12,7 +12,7 @@ A production-ready Next.js starter template designed to be cloned and customized
 | **Data fetching** | [TanStack Query v5](https://tanstack.com/query) |
 | **HTTP client** | Pre-configured Axios instance with credentials support |
 | **Authentication** | Google OAuth (auth-code flow) via an external auth service |
-| **Database (ready)** | [Drizzle ORM](https://orm.drizzle.team) + PostgreSQL scripts (add your schema when needed) |
+<!-- | **Database (ready)** | [Drizzle ORM](https://orm.drizzle.team) + PostgreSQL scripts (add your schema when needed) | -->
 | **JWT (ready)** | [`jose`](https://github.com/panva/jose) included for token verification |
 | **Notifications** | [react-hot-toast](https://react-hot-toast.com) |
 | **Git hooks** | [Husky](https://typicode.github.io/husky/) — lint on commit, build on push |
@@ -259,7 +259,7 @@ To use Drizzle in a new project:
 
 1. Add your schema (e.g. `db/schema.ts`).
 2. Add a `drizzle.config.ts` pointing at `DATABASE_URL`.
-3. Set `DATABASE_URL` in `.env.local`.
+3. Set `DATABASE_URL` in `.env`.
 4. Run `pnpm db:generate` and `pnpm db:migrate`.
 
 ---
